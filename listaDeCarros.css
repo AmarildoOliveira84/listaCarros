@@ -1,0 +1,25 @@
+.img{
+    
+    padding: 3px;
+}
+.img img{
+    width: 20px;
+    float: right;
+}
+#lista div{
+    width: 50%;
+}
+.centro{
+    text-align: center;
+    width: 60%;
+    padding: 20px;
+    margin: auto;
+    background-color: lightgray;
+}
+input,button{
+    width: 100%;
+    padding: 10px;
+}
+div{
+    padding: 5px;
+}

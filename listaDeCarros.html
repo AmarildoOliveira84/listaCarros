@@ -1,0 +1,30 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <script src="listaDeCarros.js"></script>
+    <link rel="stylesheet" href="listaDeCarros.css">
+</head>
+
+<body>
+
+    <div class="centro">
+        <div>
+            <div><input type="text" id="marca" placeholder="Marca"></div>
+            <div><input type="text" id="modelo" placeholder="Modelo"></div>
+            <div><input type="number" id="ano" placeholder="Ano"></div>
+            <div><button onclick="carros.adicionar()">Adicionar</button></div>
+            <div> <button onclick="carros.relatorio()">Resultado</button></div>
+            <div> <button onclick="carros.limparRelatorio()">Apagar</button></div>
+        </div>
+
+        <div id="lista"></div>
+
+
+    </div>
+    <div id="relatorio">
+
+    </div>
+</body>
+
+</html>
